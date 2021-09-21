@@ -1,13 +1,14 @@
 import React from 'react';
-import Video from '../components/Video/Video';
+import LiveStream from '../components/LiveStream/LiveStream';
 
 
-const PromoVideo = () => (
+const PromoVideo = () =>  { 
+    return (
     <div>
-        <Video />
+        <LiveStream />
     </div>
-);
-
+    )
+};
 
 export default PromoVideo;
 
