@@ -41,7 +41,10 @@ function App() {
               <Nav.Link as={Link} to="/event/mediaday-123">Mediaday event linkki</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link as={Link} to="/event/mediaday-567">Mediaday event 567</Nav.Link>
+              <Nav.Link as={Link} to="/event/mediaday-567">mediaday-567</Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link as={Link} to="/event/striimi">Live stream</Nav.Link>
             </Nav.Item>
           </Nav>
       </Navbar>

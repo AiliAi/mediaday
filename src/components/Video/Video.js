@@ -2,6 +2,8 @@ import React, { useEffect, useRef } from "react";
 
 import videojs from "video.js";
 import "video.js/dist/video-js.css";
+import '@videojs/themes/dist/sea/index.css';
+import '@videojs/themes/dist/fantasy/index.css';
 
 const Video = ({ url, type }) => {
   const videoRef = useRef(null);
@@ -65,7 +67,7 @@ const Video = ({ url, type }) => {
 
   return (
     <div data-vjs-player>
-      <video ref={videoRef} className="video-js vjs-big-play-centered" />
+      <video ref={videoRef} className="video-js vjs-theme-fantasy" />
     </div>
   );
 };
